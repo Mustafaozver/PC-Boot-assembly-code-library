@@ -1,0 +1,15 @@
+Doc: Files
+
+The Files section of <Core> provides functions for accessing files and virtual files.
+
+Section: Filename Format
+
+Protocols:
+hd#		- ATA Harddrives, where # is one or more digits indicating which drive and partition
+usb#	- USB drives, where # is one or more digits indicating which USB drive and partition
+prog	- Programs (the path indicates a virtual file for communication between programs)
+http	- HyperText Transfer Protocol
+ftp		- File Transfer Protocol
+
+
+
